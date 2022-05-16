@@ -19,7 +19,7 @@ public class App extends Application{
 
     @Override
     public void start(Stage stage) throws IOException {
-        URL url = new File("<PROJECT PATH HERE>/memorygame/src/main/java/com/hellocodeclub/memorygame/main.fxml").toURI().toURL();
+        URL url = new File("<REPLACE_BY_PROJECT_PATH>/memorygame/src/main/java/com/hellocodeclub/memorygame/main.fxml").toURI().toURL();
         Parent root = FXMLLoader.load(url);
         stage.setTitle("Memory Game");
         stage.setScene(new Scene(root));
